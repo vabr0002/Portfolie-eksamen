@@ -45,22 +45,95 @@
     </header>
     <main>
         <h1>Tema 4 - Grundlæggende Animation </h1>
+        <div class="temabeskrivelse">
+
+            <h3>Temabeskrivelse</h3>
+
+            <p class="indholdstekst">I dette tema vil du blive introduceret til programmeringssproget JavaScript, som
+                kan bruges til at kode dynamiske websites. I dette tema har vi valgt, at du skal bruge JavaScript sammen
+                med CSS-animationer, til at skabe et lille spil. Dit spil skal have et koncept og en ide, som du selv
+                finder frem til, og du skal selv designe alle elementer og kode spillet helt fra bunden. På dette tema
+                lægger vi særlig vægt på, at du begynder at arbejde professionelt med formgivning af grafiske elementer.
+                Vi analyserer spildesign og ser på, hvordan det engagerer brugeren gennem teori og konventioner inden
+                for UI-elementer, figur-elementer, baggrundsdesign og kompositionsteknikker. Du udvikler dit eget
+                spildesign efter moderne konventioner og tegner grafikken til spillet i Adobe Illustrator. Gennem
+                arbejdet med dit eget spil vil du lære at arbejde med aktivitets- og state machine-diagrammer, som
+                bruges til at planlægge det mere komplicerede interaktive flow. Principperne fra CSS og JavaScript, som
+                du lærer her, vil du senere på uddannelsen kunne videreføre til at udvikle mere avancerede websites.
+            </p>
+
+
+
+        </div>
         <div class="textb1">
             <div class="textb">
-                <p class="indholdstekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus corporis
-                    impedit excepturi
-                    maxime officiis vero non autem iste? Magni ipsum labore eius, architecto minima quam cum facilis
-                    harum tempora.</p>
+                <h3> Spilide og papirprototype</h3>
+                <p class="indholdstekst">Da spillets regler allerede var fastlagt, startede jeg med designet af
+                    selve spillets elementer. Hvilken stil jeg ville ramme, hvilken setting spillet skulle
+                    foregå i, hvad der skulle falde ned fra toppen, hvilken karakter jeg ville have og hvordan timeren
+                    skulle se ud.
+                    Alt det endte i en papirprototype, en hurtig skitse med løse dele, så man let kunne lave en video og
+                    forklare hvad de forskellige elementer gjorde.
+                </p>
+            </div>
+            <div class="image">
+                <img src="/billeder/tema4.papirproto.webp" alt="">
+            </div>
+        </div>
+        <div class="textb1">
+            <div class="img-wrap">
+                <div class="image">
+                    <img src="/billeder/tema4.startskræm.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="billeder/tema4.loser.jpg" alt="">
+                </div>
             </div>
             <div class="textb">
-                <img src="/billeder/t4.webp" alt="">
+                <h3>Illustrator</h3>
+                <p class="indholdstekst">Samtlige elementer blev skabt i Adobe Illustrator. Jeg startede med at designe
+                    spilbaggrunden samt sejrs- og taberskærmene. Jeg stræbte efter et jungletema, men fandt det
+                    udfordrende at opnå den ønskede stil. Derfor besluttede jeg mig for at bruge Illustrators indbyggede
+                    AI (kunstig intelligens) til at generere en baggrund og en karakter. De øvrige spilelementer blev
+                    håndtegnet af mig selv og konverteret til SVG (Scalable Vector Graphics).
+
+                    En SVG er en filformat, der er skalerbar og består af vektorbaserede data. Dette gør det muligt at
+                    bevare billedkvaliteten, uanset hvor meget filen forstørres. Dette adskiller sig fra et JPEG-format,
+                    som er opbygget af pixels og derfor mister kvalitet, når det forstørres.</p>
             </div>
         </div>
         <div class="textb1">
             <div class="textb">
+                <h3>Aktivitets & statemachinediagram</h3>
+                <h4>Aktivitetsdiagram</h4>
+                <p class="indholdstekst">Et aktivitetsdiagram inden for spildesign skitserer rækkefølgen af handlinger
+                    og beslutninger inden for et specifikt scenarie. Dette diagram viser interaktionen mellem spilleren
+                    eller spilobjekterne og deres handlinger som respons på begivenheder eller betingelser. Et konkret
+                    eksempel kunne være et aktivitetsdiagram, der tydeliggør, hvordan spillerens valg influerer på
+                    spillets forløb og kan give anledning til forskellige scenarier.</p>
+                <h4>Statemachinediagram</h4>
+                <p class="indholdstekst">I spildesign viser et statemaskinediagram de forskellige "tilstande" eller
+                    situationer, som
+                    spilelementerne kan befinde sig i (såsom at være inaktiv, i bevægelse osv.) og hvordan disse
+                    tilstande skifter i forhold til, hvad spillet "registrerer" eller "oplever". Dette diagram er et
+                    værdifuldt værktøj for spiludviklere, da det hjælper med at planlægge og skabe forståelse for,
+                    hvordan spilelementerne dynamisk reagerer og opfører sig i spillets kontekst.</p>
+            </div>
+            <div class="img-wrap">
+                <div class="image">
+                    <img src="/billeder/tema4.aktivitets.jpg" alt="">
+                </div>
+                <div>
+                    <img src="billeder/tema4.statemachine.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="textb1">
+            <div class="image">
                 <img src="/billeder/t4.webp" alt="">
             </div>
             <div class="textb">
+                <h3>CSS Animationer og keyframes</h3>
                 <p class="indholdstekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad, iusto
                     quibusdam totam
                     reiciendis
@@ -69,18 +142,15 @@
                     ipsa,
                     illum aliquid?</p>
             </div>
-        </div>
-        <div class="textb1">
-            <div class="textb">
-                <p class="indholdstekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad, iusto
-                    quibusdam totam
-                    reiciendis
-                    praesentium molestiae magnam quo. Mollitia ab dolorum tempora tempore omnis quis quaerat
-                    doloribus
-                    ipsa,
-                    illum aliquid?</p>
+            <div class="textb1">
+                <div class="textb">
+                    <h3>Javascript</h3>
+                    <p class="indholdstekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia neque iure
+                        repellendus sit excepturi inventore atque quod. Cupiditate eveniet, perferendis laudantium
+                        voluptates autem minus odit tempore culpa provident esse unde?</p>
+                </div>
             </div>
-            <div class="textb">
+            <div class="image">
                 <img src="/billeder/t4.webp" alt="">
             </div>
         </div>

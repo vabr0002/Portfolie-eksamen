@@ -94,6 +94,14 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: "Pavanam", sans-serif;
+  color: #464040;
+  font-size: 1.8rem;
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+}
+
 footer {
   background-color: #e4d7b6;
   padding: 50px;
@@ -179,7 +187,6 @@ footer p {
   font-family: "Pavanam", sans-serif;
   color: #464040;
   font-size: 1rem;
-  text-decoration: none;
   margin-bottom: 10px;
 }
 
