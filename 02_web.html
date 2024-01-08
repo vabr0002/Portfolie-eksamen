@@ -45,38 +45,146 @@
     </header>
     <main>
         <h1>Tema 2 - Grundlæggende Web</h1>
+        <div class="temabeskrivelse">
+            <h3>Temabeskrivelse</h3>
+
+            <p class="indholdstekst">Dette første tema giver en grundlæggende indføring til de mest anvendte redskaber
+                i en multimediedesigners
+                værktøjskasse. Redskaberne udgør fundamentet for resten af din uddannelse på MMD. Du vil blive
+                introduceret
+                til grundlæggende faglige begreber inden for design af digitale brugergrænseflader, digital
+                indholdsproduktion, digital kommunikation og responsivt webdesign. Du lærer at sætte websider op i html
+                og
+                css og får de første hands-on færdigheder inden for udarbejdelse af grafik og billedbehandling i
+                Photoshop,
+                opsætning af tekst og billeder i Figma</p>
+        </div>
+
         <div class="textb1">
             <div class="textb">
-                <p>Vi fik udleveret alt materiale vi skulle bruge, både billeder og tekst, derefter fik vi </p>
+                <h3>Introduktion</h3>
+                <p class="indholdstekst"> I det indledende emne blev vi introduceret til grundlæggende HTML (Hyper
+                    Text
+                    Markup Language) og
+                    CSS (Cascading Style Sheets).
+                    Vores første opgave var at skabe et visitkort, som skulle uploades til
+                    vores nyerhvervede
+                    domæne via FileZilla. Dette krævede ren HTML uden styling, hvilket resulterede i en simpel
+                    hjemmeside, hvor tekst og billeder stod på venstre side, placeret oven over hinanden. Ud over
+                    opgaven med visitkortet fik vi en lignende opgave, hvor vi skulle beskrive vores kæledyr (hvis vi
+                    havde et) og præsentere det på samme måde i HTML.
+
+                    I første del af forløbet arbejdede vi også med et website, hvor vi modtog tekst og billeder, som vi
+                    skulle organisere ved hjælp af grid og media queries på forskellige sider.Grid bruger du til at
+                    opdele dit indhold på siden, media queries burges til at lave sitet repsonsivt så det fungere på
+                    forskellige skærmstørrelser.
+                    Emnet var computere, og der var også en side, hvor vi skulle beskrive vores egen computers
+                    specifikationer og egenskaber.
+                    Dette website, som vi arbejdede på i omkring halvanden uge, blev senere anvendt som
+                    studiestartsprøve, hvilket var en af de få obligatoriske opgaver i første semester. </p>
+            </div>
+            <div class="image">
+                <img src="/billeder/tema2visit.webp" alt="">
+            </div>
+        </div>
+        <div class="textb1">
+            <div class="image">
+                <img src="/billeder/tema2grid.webp" alt="">
             </div>
             <div class="textb">
-                <img src="/billeder/t5.webp" alt="">
+                <h3>Grid</h3>
+                <p class="indholdstekst">Under studiestartsprøven blev vi præsenteret for fem opgaver, der fokuserede på
+                    anvendelsen af grids og deres rolle i at strukturere indhold på websider. Grid repræsenterer et
+                    gitterbaseret layoutsystem, der gør det muligt at opdele indhold i tydelige kolonner og rækker,
+                    hvilket fremmer en mere organiseret og overskuelig præsentation af information.
+
+                    Lad os forestille os, at vi har seks billeder og tilsvarende tekster, som vi ønsker at præsentere i
+                    en vandret række, hvor hvert billede er placeret under den tilhørende tekst, som illustreret på
+                    billedet. For at opnå dette opretter vi en wrapper, som omfatter hele sektionen. Herefter indkapsler
+                    vi hvert billede og tekstpar individuelt. Derefter benytter vi CSS til at anvende display: grid; på
+                    den primære wrapper og opdeler indholdet i tre kolonner og to rækker for at opnå det ønskede layout.
+                    Dette giver os mulighed for præcist at styre placeringen af hvert billede-tekstpar i det definerede
+                    gitter, hvilket skaber en struktureret og elegant præsentation.</p>
+                <p class="indholdstekst">Her er nogle eksempler på et par af de grid opgaver vi har lavet.</p>
+                <a href="https://vabb1998.dk/kea/02_web/01_website/grid_layout_1/">Grid opgave 1</a>
+                <a href="https://vabb1998.dk/kea/02_web/01_website/grid_layout_2/">Grid opgave 2</a>
+                <a href="https://vabb1998.dk/kea/02_web/01_website/grid_layout_5/">Grid opgave 3</a>
             </div>
         </div>
         <div class="textb1">
             <div class="textb">
-                <img src="/billeder/t5.webp" alt="">
+                <h3>Gestaltlove</h3>
+                <p class="indholdstekst">Gestaltlove er en række love eller principper, der bruges til at beskrive,
+                    hvordan vi som mennesker - især vores hjerner - opfatter visuelle inputs og organiserer dem på en
+                    måde, der giver mening for os. Disse love stammer fra psykologien, men bliver i dag primært brugt
+                    som værktøjer inden for grafisk design, webdesign, brugergrænseflade (UI), layout og forskellige
+                    former for visuel kommunikation. Selvom der findes mange Gestaltlove, anses fem af dem for de mest
+                    grundlæggende:
+
+                <ul>
+
+                    <li>Nærhedsloven
+                        Nærhedsloven handler om, at elementer, der er tæt på hinanden, ofte er forbundet eller har en
+                        relation til hinanden.</li>
+
+                    <li>Lighedsloven
+                        Lighedsloven indebærer, at emner, der ligner hinanden, ofte grupperes sammen. Som tidligere
+                        nævnt
+                        har vi en naturlig tilbøjelighed til at gruppere lignende ting, hvilket gør lighedsloven
+                        relevant
+                        inden for alle former for visuel kommunikation.</li>
+
+                    <li>Lukkethedsloven
+                        Lukkethedsloven fortæller, at mennesker har en tendens til at gruppere ting, der er lukket af
+                        fra
+                        resten af designet, f.eks. emner, der er placeret inden for en boks eller afgrænset af en ramme.
+                    </li>
+
+                    <li>Forbundethedsloven
+                        Forbundethedsloven drejer sig ligesom lukkethedsloven om at fremhæve, at visse elementer hører
+                        sammen og er adskilt fra andre. Dette kan gøres på forskellige måder, f.eks. med sammenhængende
+                        farver eller forbundne linjer.</li>
+
+                    <li>Figur og baggrund-loven
+                        Figur og baggrund-loven handler om forgrund og baggrund og hvordan vi adskiller dem. Det er
+                        vigtigt
+                        at kunne skelne mellem en forside og overskriften, f.eks. hvis du har et billede som baggrund på
+                        forsiden, er det vigtigt at sikre, at din overskrift har den rette farve og skrifttype, så den
+                        er
+                        let at læse.
+                    </li>
+                    </p>
+                </ul>
+
             </div>
-            <div class="textb">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad, iusto quibusdam totam
-                    reiciendis
-                    praesentium molestiae magnam quo. Mollitia ab dolorum tempora tempore omnis quis quaerat doloribus
-                    ipsa,
-                    illum aliquid?</p>
+            <div class="image">
+                <img src="/billeder/tema2gestalt.webp" alt="">
             </div>
         </div>
-        <div class="textb1">
-            <div class="textb">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad, iusto quibusdam totam
-                    reiciendis
-                    praesentium molestiae magnam quo. Mollitia ab dolorum tempora tempore omnis quis quaerat doloribus
-                    ipsa,
-                    illum aliquid?</p>
-            </div>
-            <div class="textb">
-                <img src="/billeder/t5.webp" alt="">
-            </div>
+
+        <div class="temabeskrivelse">
+            <h3>Sitet</h3>
+            <p class="indholdstekst">Under udviklingen af det endelige websted til studiestartsprøven fulgte jeg en
+                systematisk tilgang. Jeg
+                påbegyndte processen med at få styr på det basale HTML, hvilket omfattede oprettelsen af elementer som
+                header, main og footer. Herefter implementerede jeg forskellige grid-systemer i så de passede med de
+                layoutdiagrammer, vi havde modtaget.
+
+                Efter at have etableret den grundlæggende struktur, indsatte jeg de forskellige tekstelementer og
+                billeder
+                vi havde fået udleveret og da indholdet var på plads, påbegyndte jeg
+                stylingen ved hjælp af CSS. Dette omfattede blandt andet farver, valg af skrifttyper, justering
+                af skriftstørrelser samt justering af margener og padding for at opnå den ønskede visuelle udtryk.
+
+                Selvom det endelige resultat måske ikke præsenterer sig så æstetisk tiltalende som ønsket og med det
+                mener jeg farvevalgtet, repræsenterer
+                det dog min første fuldt udviklede hjemmeside. Dette projekt har været en værdifuld læringsoplevelse,
+                der har givet mig indsigt i grundlæggende webudvikling og designprincipper.</p>
+
+
+
         </div>
+
 
         <p class="opgavelink">Se hele opgaven<a href="https://vabb1998.dk/kea/02_web/01_website/website_m_burgermenu/">
                 her</a></p>

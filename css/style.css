@@ -10,6 +10,13 @@ html {
 
 a {
   text-decoration: none;
+  font-family: "Pavanam", sans-serif;
+  color: #464040;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  opacity: 0, 8;
 }
 
 img {
@@ -31,7 +38,7 @@ nav {
 li a:hover {
   opacity: 0, 8;
 }
-ul {
+nav ul {
   list-style: none;
   display: flex;
   gap: 10px;
@@ -39,10 +46,21 @@ ul {
   font-family: "Pavanam", sans-serif;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: #464040;
   padding: 5px;
+}
+
+li {
+  font-family: "Pavanam", sans-serif;
+  line-height: 2;
+}
+
+p.indholdstekst {
+  font-family: "Pavanam", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
 }
 
 .white {
@@ -71,6 +89,9 @@ h2 {
 h3 {
   font-family: "Pavanam", sans-serif;
   color: #464040;
+  font-size: 2rem;
+  margin: 15px 0px 15px 0px;
+  text-align: center;
 }
 
 footer {
@@ -222,7 +243,7 @@ footer p {
   }
   .active-show a {
     text-decoration: none;
-    color: red;
+    color: #464040;
     font-size: 24px;
   }
 
@@ -235,7 +256,7 @@ footer p {
   .bar {
     width: 35px;
     height: 3px;
-    background: red;
+    background: #464040;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -243,7 +264,7 @@ footer p {
   .menu-opened .active-show {
     display: flex;
     position: absolute;
-    background: #f5f5f5;
+    background: #cac4bc;
     width: 100%;
   }
 

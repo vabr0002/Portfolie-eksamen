@@ -14,7 +14,7 @@ h2 {
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -34,16 +34,23 @@ main {
   margin-left: auto;
 }
 
+.textb {
+  background-color: #cac4bc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
 .textb1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  gap: 75px;
   margin-bottom: 40px;
 }
 
 .ommig1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 100px;
 }
 
@@ -88,6 +95,16 @@ main {
 nav ul li a:hover {
   opacity: 0.6;
 }
+
+.temabeskrivelse {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  padding: 10px 0px 40px 0px;
+  gap: 30px;
+  background-color: #cac4bc;
+  border-radius: 8px;
+}
 @media (max-width: 800px) {
   .grid_1 {
     display: grid;
@@ -103,11 +120,11 @@ nav ul li a:hover {
   }
 
   h1 {
-    font-size: 3.5rem !important;
+    font-size: 2.5rem !important;
   }
 
   .white {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   main {
     padding: 20px;
@@ -139,5 +156,9 @@ nav ul li a:hover {
 
   .active-show {
     height: 60vh;
+  }
+
+  .portpil {
+    display: none;
   }
 }
