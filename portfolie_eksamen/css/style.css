@@ -168,20 +168,20 @@ footer p {
 }
 
 .web {
-  background-image: url(../billeder/t2.webp);
+  background-image: url(/billeder/t2.webp);
 }
 .tema:hover {
   opacity: 0.6;
 }
 .ux {
-  background-image: url(../billeder/t3.webp);
+  background-image: url(/billeder/t3.webp);
 }
 
 .animation {
-  background-image: url(../billeder/t4.webp);
+  background-image: url(/billeder/t4.webp);
 }
 .indhold {
-  background-image: url(../billeder/t5.webp);
+  background-image: url(/billeder/t5.webp);
 }
 
 .ommig1 img {
